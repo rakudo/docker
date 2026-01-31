@@ -3,7 +3,7 @@ MAINTAINER AntonOks
 
 RUN groupadd -r raku && useradd -m -r -g raku raku
 
-ARG rakudo_version=2025.12-01
+ARG rakudo_version=2026.01-01
 ENV rakudo_version=${rakudo_version}
 
 RUN buildDeps=' \
