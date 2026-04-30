@@ -3,7 +3,7 @@ MAINTAINER Rob Hoelz
 
 RUN groupadd -r raku && useradd -m -r -g raku raku
 
-ARG rakudo_version=2026.03-01
+ARG rakudo_version=2026.04-01
 ENV rakudo_version=${rakudo_version}
 
 RUN buildDeps=' \
