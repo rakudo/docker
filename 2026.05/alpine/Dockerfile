@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.24.1
 
 RUN addgroup -S raku && adduser -S raku -G raku
 
