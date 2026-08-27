@@ -1,9 +1,9 @@
-FROM buildpack-deps:bookworm-scm
-MAINTAINER Rob Hoelz
+FROM buildpack-deps:trixie-scm
+MAINTAINER AntonOks
 
 RUN groupadd -r raku && useradd -m -r -g raku raku
 
-ARG rakudo_version=2026.07-01
+ARG rakudo_version=2026.08-01
 ENV rakudo_version=${rakudo_version}
 
 RUN buildDeps=' \
